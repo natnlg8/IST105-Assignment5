@@ -12,3 +12,12 @@
     </form>
 </body>
 </html>
+<form action="/cgi-bin/treasure_hunt.py" method="post">
+    <label for="user_number">Enter a number:</label>
+    <input type="number" name="user_number" required>
+    
+    <label for="user_text">Enter some text:</label>
+    <input type="text" name="user_text" required>
+
+    <input type="submit" value="Submit">
+</form>
